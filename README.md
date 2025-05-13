@@ -22,4 +22,19 @@ Clone o repositório:
 
 ```bash
 git clone https://github.com/rodrigo12crt/projeto_integrado_5_ADS.git
-cd projeto_integrado_5_ADS/projeto_integrado 
+cd projeto_integrado_5_ADS/projeto_integrado
+
+## Crie e ative o ambiente virtual:
+
+python3 -m venv venv
+source venv/bin/activate  # Linux/macOS
+venv\Scripts\activate     # Windows
+
+## Instale as dependências:
+pip install -r requirements.txt
+
+## Rode as migrações:
+python manage.py migrate
+
+## Inicie o servidor:
+python manage.py runserver 0.0.0.0/8000
