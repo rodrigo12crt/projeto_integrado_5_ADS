@@ -38,3 +38,7 @@ python manage.py migrate
 
 ## Inicie o servidor:
 python manage.py runserver 0.0.0.0/8000
+
+## Usuário padrão (para testes)
+Usuário: admin
+Senha: adm123456
