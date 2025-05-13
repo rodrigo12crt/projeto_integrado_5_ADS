@@ -42,3 +42,21 @@ python manage.py runserver 0.0.0.0/8000
 ## Usuário padrão (para testes)
 Usuário: admin
 Senha: adm123456
+
+## Estrutura do Projeto
+projeto_integrado_5_ADS/
+├── projeto_integrado/
+│   ├── settings.py
+│   └── ...
+├── klugpet/
+│   ├── models.py
+│   ├── views.py
+│   ├── templates/
+│   └── ...
+├── db.sqlite3
+├── manage.py
+└── README.md
+
+## Licença
+Este projeto foi desenvolvido para fins acadêmicos.
+Uso livre para estudos.
