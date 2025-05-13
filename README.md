@@ -1,7 +1,7 @@
 
 # KlugPet – Projeto Integrado 5º (ADS)
 
-Este é um sistema web desenvolvido com Django como parte do Projeto Integrado V do curso de Análise e Desenvolvimento de Sistemas. O sistema é voltado para o gerenciamento de um daycare para pets — com cadastro de tutores, pets, serviços, agendamentos e geração de relatórios.
+Este é um sistema web desenvolvido com Django como parte do Projeto Integrado do curso de Análise e Desenvolvimento de Sistemas. O sistema é voltado para o gerenciamento de um daycare para pets — com cadastro de tutores, pets, serviços, agendamentos e geração de relatórios.
 
 ---
 
