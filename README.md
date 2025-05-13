@@ -1,11 +1,11 @@
 
-# 🐾 KlugPet – Projeto Integrado 5 (ADS)
+# KlugPet – Projeto Integrado 5º (ADS)
 
 Este é um sistema web desenvolvido com Django como parte do Projeto Integrado V do curso de Análise e Desenvolvimento de Sistemas. O sistema é voltado para o gerenciamento de um daycare para pets — com cadastro de tutores, pets, serviços, agendamentos e geração de relatórios.
 
 ---
 
-## 📌 Funcionalidades
+## Funcionalidades
 
 - Cadastro e login de usuários com autenticação personalizada
 - Cadastro de tutores e seus pets
@@ -16,18 +16,17 @@ Este é um sistema web desenvolvido com Django como parte do Projeto Integrado V
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - Python 3.10+
 - Django 5.2.1
 - SQLite3
 - HTML + CSS (Bootstrap)
 - JavaScript
-- Biblioteca `xhtml2pdf` para geração de PDFs
 
 ---
 
-## 🚀 Como executar o projeto
+## Como executar o projeto
 
 1. **Clone o repositório:**
 
@@ -46,9 +45,8 @@ venv\Scripts\activate     # Para Windows
 
 3. **Instale as dependências:**
 
-> Caso não tenha um arquivo `requirements.txt`, instale manualmente:
 ```bash
-pip install django xhtml2pdf
+pip install -r requirements.txt
 ```
 
 4. **Aplique as migrações:**
@@ -68,16 +66,8 @@ python manage.py runserver 0.0.0.0:8000
 Abra no navegador: [http://localhost:8000](http://localhost:8000)  
 Ou use o IP público da sua máquina virtual (ex: `http://<seu_ip>:8000`)
 
----
-
-## 👤 Acesso ao sistema
-
-Você pode criar um superusuário com o comando:
-
-```bash
-python manage.py createsuperuser
-```
-
+User: admin
+Senha: adm123456
 ---
 
 ## 📂 Estrutura do Projeto
@@ -101,9 +91,7 @@ projeto_integrado_5_ADS/
 
 ## 📄 Licença
 
-Este projeto foi desenvolvido para fins acadêmicos na faculdade.  
-Uso livre para estudos e apresentações.
+Este projeto foi desenvolvido para fins acadêmicos.  
+Uso livre para estudos.
 
 ---
-
-Desenvolvido com 💻 por Rodrigo e equipe – 2025.
