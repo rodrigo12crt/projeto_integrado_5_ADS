@@ -34,7 +34,9 @@
         <a href="{% url 'exportar_relatorio_excel' %}?tutor_id={{ request.GET.tutor_id }}&data_inicio={{ request.GET.data_inicio }}&data_fim={{ request.GET.data_fim }}" class="btn btn-success mb-3">
             📥 Exportar para Excel
         </a>
-        <table class="table table-striped">
+
+        <div class="table-responsive">
+            <table class="table table-striped">
             <thead>
                 <tr>
                     <th>Data</th>
@@ -64,6 +66,7 @@
                 {% endfor %}
             </tbody>
         </table>
+        </div>
         <p class="text-end"><strong>Total Geral:</strong> R$ {{ total_geral|floatformat:2 }}</p>
     </div>
     {% else %}

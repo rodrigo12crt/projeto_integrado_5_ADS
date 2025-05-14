@@ -744,13 +744,12 @@ def exportar_relatorio_excel(request):
 def nota_atendimento(request, agendamento_id):
     """
     Exibe a nota de atendimento de um agendamento.
-
     - Recupera o agendamento com os dados relacionados (serviços, pet e tutor).
     - Calcula o valor bruto, desconto e valor total com desconto.
     - Exibe a nota de atendimento em HTML.
     """
     agendamento = get_object_or_404(
-        Agendamento.objects.prefetch_related('servicos', 'pet__tutor'),
+        Agendamento.objects.select_related('pet__tutor').prefetch_related('servicos'),
         id=agendamento_id
     )
 
@@ -765,13 +764,12 @@ def nota_atendimento(request, agendamento_id):
         'valor_desconto': valor_desconto,
         'valor_total_com_desconto': valor_total_com_desconto
     })
-
+    
 
 @login_required
 def gerar_nota(request, agendamento_id):
     """
     Gera e exporta a nota de atendimento em formato PDF.
-
     - Recupera o agendamento com os dados relacionados.
     - Calcula o valor total e o desconto.
     - Gera o HTML para o PDF usando um template.
@@ -779,7 +777,7 @@ def gerar_nota(request, agendamento_id):
     - Prepara a resposta HTTP para download do PDF.
     """
     agendamento = get_object_or_404(
-        Agendamento.objects.prefetch_related('servicos', 'pet__tutor'),
+        Agendamento.objects.select_related('pet__tutor').prefetch_related('servicos'),
         id=agendamento_id
     )
 
