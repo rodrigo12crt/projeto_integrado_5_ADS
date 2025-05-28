@@ -1,0 +1,1253 @@
+Watching for file changes with StatReloader
+[26/May/2025 12:28:56] "GET /home/ HTTP/1.1" 200 12077
+[26/May/2025 12:31:36] "GET /cadastro_pet/ HTTP/1.1" 200 12678
+[26/May/2025 12:31:38] "GET /cadastro_servico/ HTTP/1.1" 200 7780
+[26/May/2025 12:31:41] "GET /agendamento/ HTTP/1.1" 200 22264
+[26/May/2025 12:31:43] "GET /agendamento/ HTTP/1.1" 302 0
+[26/May/2025 12:31:43] "GET /login/?next=/agendamento/ HTTP/1.1" 200 3067
+[26/May/2025 12:31:43] "POST /logout/ HTTP/1.1" 302 0
+[26/May/2025 12:31:44] "GET /login/ HTTP/1.1" 200 3067
+[26/May/2025 12:31:54] "POST /login/ HTTP/1.1" 200 3254
+[26/May/2025 12:32:06] "POST /login/ HTTP/1.1" 302 0
+[26/May/2025 12:32:06] "GET /home/ HTTP/1.1" 200 12078
+[26/May/2025 12:32:12] "GET /registrar/ HTTP/1.1" 302 0
+[26/May/2025 12:32:12] "GET /home/ HTTP/1.1" 200 12407
+[26/May/2025 12:32:26] "GET /home/ HTTP/1.1" 200 12078
+[26/May/2025 12:32:28] "GET /cadastro_servico/ HTTP/1.1" 200 7781
+[26/May/2025 12:32:30] "GET /agendamento/ HTTP/1.1" 200 22265
+[26/May/2025 12:32:49] "POST /logout/ HTTP/1.1" 302 0
+[26/May/2025 12:32:50] "GET /login/ HTTP/1.1" 200 3067
+[26/May/2025 12:32:57,476] - Broken pipe from ('177.26.245.248', 25611)
+[26/May/2025 12:35:56] "POST /login/ HTTP/1.1" 302 0
+[26/May/2025 12:35:56] "GET /home/ HTTP/1.1" 200 12077
+[26/May/2025 12:36:01] "POST /logout/ HTTP/1.1" 302 0
+[26/May/2025 12:36:02] "GET /login/ HTTP/1.1" 200 3067
+[26/May/2025 12:40:18] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x03\x01\x00\x01ÿ\x03\x03âé)2pP>\x91ëÞÀÆ9\x14!Xñí\x81îPch}â¯\'å"q\x87ø')
+[26/May/2025 12:40:18] You're accessing the development server over HTTPS, but it only supports HTTP.
+[26/May/2025 12:40:18] code 400, message Bad request version ('\x17>áàzµ[pr_*Ñ')
+[26/May/2025 12:40:18] You're accessing the development server over HTTPS, but it only supports HTTP.
+[26/May/2025 12:40:18] code 400, message Bad request version ('ÊÊ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x96zz\x00\x00Di\x00\x05\x00\x03\x02h2\x00#\x00\x00\x00')
+[26/May/2025 12:40:18] You're accessing the development server over HTTPS, but it only supports HTTP.
+[26/May/2025 12:40:18] code 400, message Bad request version ('6Ã\x06')
+[26/May/2025 12:40:18] You're accessing the development server over HTTPS, but it only supports HTTP.
+[26/May/2025 12:40:18] code 400, message Bad request version ('\x02h2\x08http/1.1\x00')
+[26/May/2025 12:40:18] You're accessing the development server over HTTPS, but it only supports HTTP.
+[26/May/2025 12:40:19] code 400, message Bad request version ('|\x84')
+[26/May/2025 12:40:19] You're accessing the development server over HTTPS, but it only supports HTTP.
+[26/May/2025 12:49:58] "POST /login/ HTTP/1.1" 302 0
+[26/May/2025 12:49:59] "GET /home/ HTTP/1.1" 200 12077
+[26/May/2025 12:50:02] "GET /cadastro_servico/ HTTP/1.1" 200 7780
+[26/May/2025 12:50:04] "GET /servicos/ HTTP/1.1" 200 9585
+[26/May/2025 12:50:09] "GET /agendamento/ HTTP/1.1" 200 22264
+[26/May/2025 12:50:10] "GET /agendamentos/ HTTP/1.1" 200 13654
+[26/May/2025 12:50:14] "GET /cadastro_tutor/ HTTP/1.1" 200 11463
+[26/May/2025 12:50:16] "GET /tutores/ HTTP/1.1" 200 12812
+[26/May/2025 12:50:18] "GET /tutores/1/ HTTP/1.1" 200 7379
+[26/May/2025 12:50:19] "GET /media/pets/border.jpg HTTP/1.1" 200 285430
+[26/May/2025 12:50:34] "GET /home/ HTTP/1.1" 200 12077
+[26/May/2025 12:50:40] "GET /cadastro_pet/ HTTP/1.1" 200 12678
+[26/May/2025 12:50:47] "GET /cadastro_pet/ HTTP/1.1" 302 0
+[26/May/2025 12:50:47] "GET /login/?next=/cadastro_pet/ HTTP/1.1" 200 3067
+[26/May/2025 12:51:06] "POST /cadastro_pet/ HTTP/1.1" 302 0
+[26/May/2025 12:51:07] "GET /cadastro_pet/ HTTP/1.1" 200 13180
+[26/May/2025 12:51:11] "GET /cadastro_tutor/ HTTP/1.1" 200 11463
+[26/May/2025 12:51:12] "GET /tutores/ HTTP/1.1" 200 12812
+[26/May/2025 12:51:14] "GET /tutores/1/ HTTP/1.1" 200 8366
+[26/May/2025 12:51:14] "GET /static/img/sem-foto.jpg HTTP/1.1" 200 6078
+[26/May/2025 12:51:22] "GET /home/ HTTP/1.1" 200 12077
+[26/May/2025 12:51:25] "POST /logout/ HTTP/1.1" 302 0
+[26/May/2025 12:51:26] "GET /login/ HTTP/1.1" 200 3067
+[26/May/2025 12:51:34,813] - Broken pipe from ('177.26.245.248', 25600)
+[26/May/2025 12:51:34,818] - Broken pipe from ('177.26.245.248', 25625)
+[26/May/2025 13:26:13] "POST /login/ HTTP/1.1" 302 0
+[26/May/2025 13:26:14] "GET /home/ HTTP/1.1" 200 12077
+[26/May/2025 13:26:18] "GET /cadastro_pet/ HTTP/1.1" 200 12678
+[26/May/2025 13:26:19] "GET /home/ HTTP/1.1" 302 0
+[26/May/2025 13:26:19] "GET /pets/ HTTP/1.1" 200 14356
+[26/May/2025 13:26:21] "GET /home/ HTTP/1.1" 302 0
+[26/May/2025 13:26:33] "GET /agendamento/ HTTP/1.1" 200 22443
+[26/May/2025 13:26:35] "GET /agendamentos/ HTTP/1.1" 200 13654
+[26/May/2025 13:27:02] "GET /agendamentos/?q=Rodrigo+ HTTP/1.1" 200 8199
+[26/May/2025 13:27:07] "GET /agendamentos/?q=Rodrigo+ HTTP/1.1" 302 0
+[26/May/2025 13:27:08] "GET /login/?next=/agendamentos/%3Fq%3DRodrigo%2B HTTP/1.1" 200 3067
+[26/May/2025 13:27:12] "GET /agendamentos/?q=teste+ HTTP/1.1" 200 7233
+[26/May/2025 13:27:16] "GET /agendamentos/ HTTP/1.1" 200 13654
+[26/May/2025 13:27:17] "GET /agendamentos/?q=teste+ HTTP/1.1" 302 0
+[26/May/2025 13:27:17] "GET /login/?next=/agendamentos/%3Fq%3Dteste%2B HTTP/1.1" 200 3067
+[26/May/2025 13:27:29] "GET /home/ HTTP/1.1" 200 12077
+[26/May/2025 13:27:34] "GET /cadastro_servico/ HTTP/1.1" 200 7780
+[26/May/2025 13:27:35] "GET /servicos/ HTTP/1.1" 200 9585
+[26/May/2025 13:28:00] "GET /home/ HTTP/1.1" 200 12077
+[26/May/2025 13:28:07] "GET /registrar/ HTTP/1.1" 200 8464
+[26/May/2025 13:28:08] "GET /usuarios/ HTTP/1.1" 200 8284
+[26/May/2025 13:28:14] "GET /home/ HTTP/1.1" 200 12077
+[26/May/2025 13:28:21] "GET /relatorios/ HTTP/1.1" 200 11407
+[26/May/2025 13:28:26] "GET /relatorios/ HTTP/1.1" 302 0
+[26/May/2025 13:28:26] "GET /login/?next=/relatorios/ HTTP/1.1" 200 3067
+[26/May/2025 13:28:37] "GET /relatorios/?tutor_id=10&data_inicio=&data_fim= HTTP/1.1" 200 7335
+[26/May/2025 13:28:41] "GET /home/ HTTP/1.1" 200 12077
+[26/May/2025 13:29:01] "POST /logout/ HTTP/1.1" 302 0
+[26/May/2025 13:29:02] "GET /login/ HTTP/1.1" 200 3067
+[26/May/2025 13:29:09,908] - Broken pipe from ('177.26.245.248', 25624)
+Invalid HTTP_HOST header: 'www.google.com:443'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.google.com:443'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Bad Request: /www.google.com:443
+[26/May/2025 14:23:46] "CONNECT www.google.com:443 HTTP/1.1" 400 64170
+[26/May/2025 15:43:08] "POST /login/ HTTP/1.1" 302 0
+[26/May/2025 15:43:08] "GET /home/ HTTP/1.1" 200 12078
+[26/May/2025 15:43:12] "GET /cadastro_pet/ HTTP/1.1" 200 12679
+[26/May/2025 15:43:15] "GET /pets/ HTTP/1.1" 200 14357
+[26/May/2025 15:43:20] "GET /pets/ HTTP/1.1" 302 0
+[26/May/2025 15:43:20] "GET /pets/ HTTP/1.1" 302 0
+[26/May/2025 15:43:20] "GET /login/?next=/pets/ HTTP/1.1" 200 3067
+[26/May/2025 15:43:20] "GET /login/?next=/pets/ HTTP/1.1" 200 3067
+[26/May/2025 15:43:47] "GET /home/ HTTP/1.1" 200 12078
+[26/May/2025 15:43:50] "GET /cadastro_tutor/ HTTP/1.1" 200 11464
+[26/May/2025 15:43:51] "GET /tutores/ HTTP/1.1" 200 12813
+[26/May/2025 15:43:52] "GET /cadastro_tutor/ HTTP/1.1" 302 0
+[26/May/2025 15:43:52] "GET /login/?next=/cadastro_tutor/ HTTP/1.1" 200 3067
+[26/May/2025 15:43:55] "GET /tutores/ HTTP/1.1" 302 0
+[26/May/2025 15:43:55] "GET /tutores/ HTTP/1.1" 302 0
+[26/May/2025 15:43:55] "GET /login/?next=/tutores/ HTTP/1.1" 200 3067
+[26/May/2025 15:43:55] "GET /login/?next=/tutores/ HTTP/1.1" 200 3067
+[26/May/2025 15:43:58] "GET /tutores/10/ HTTP/1.1" 200 7384
+[26/May/2025 15:44:02] "GET /tutores/10/ HTTP/1.1" 302 0
+[26/May/2025 15:44:02] "GET /login/?next=/tutores/10/ HTTP/1.1" 200 3067
+[26/May/2025 15:44:04] "GET /home/ HTTP/1.1" 200 12078
+[26/May/2025 15:44:15] "GET /registrar/ HTTP/1.1" 302 0
+[26/May/2025 15:44:15] "GET /home/ HTTP/1.1" 200 12407
+[26/May/2025 15:44:31] "POST /logout/ HTTP/1.1" 302 0
+[26/May/2025 15:44:31] "GET /login/ HTTP/1.1" 200 3067
+[26/May/2025 15:44:53,119] - Broken pipe from ('177.26.245.248', 25614)
+[26/May/2025 15:54:10] code 400, message Bad request syntax ('JDWP-Handshake')
+[26/May/2025 15:54:10] "JDWP-Handshake" 400 -
+Invalid HTTP_HOST header: 'www.google.com:443'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.google.com:443'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Bad Request: /www.google.com:443
+[26/May/2025 16:55:25] "CONNECT www.google.com:443 HTTP/1.1" 400 64170
+Invalid HTTP_HOST header: '3.12.160.234:8000'. You may need to add '3.12.160.234' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '3.12.160.234:8000'. You may need to add '3.12.160.234' to ALLOWED_HOSTS.
+Bad Request: /
+[26/May/2025 17:13:48] "GET / HTTP/1.1" 400 64409
+Invalid HTTP_HOST header: '3.12.160.234:8000'. You may need to add '3.12.160.234' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '3.12.160.234:8000'. You may need to add '3.12.160.234' to ALLOWED_HOSTS.
+Bad Request: /
+[26/May/2025 17:16:14] "GET / HTTP/1.1" 400 64409
+[26/May/2025 17:17:53] code 400, message Bad request version ('À\x14À')
+[26/May/2025 17:17:53] You're accessing the development server over HTTPS, but it only supports HTTP.
+[26/May/2025 17:20:12] code 400, message Bad request syntax ('SSH-2.0-Go')
+[26/May/2025 17:20:12] "SSH-2.0-Go" 400 -
+[26/May/2025 17:20:30] code 400, message Bad request version ('À\x14À')
+[26/May/2025 17:20:30] You're accessing the development server over HTTPS, but it only supports HTTP.
+Invalid HTTP_HOST header: '3.12.160.234:8000'. You may need to add '3.12.160.234' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '3.12.160.234:8000'. You may need to add '3.12.160.234' to ALLOWED_HOSTS.
+Bad Request: /
+[26/May/2025 17:22:29] "GET / HTTP/1.1" 400 64533
+Invalid HTTP_HOST header: 'www.google.com:443'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.google.com:443'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Bad Request: /www.google.com:443
+[26/May/2025 17:29:34] "CONNECT www.google.com:443 HTTP/1.1" 400 64169
+[26/May/2025 19:08:45,818] - Broken pipe from ('206.168.34.122', 39296)
+Invalid HTTP_HOST header: '3.12.160.234:8000'. You may need to add '3.12.160.234' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '3.12.160.234:8000'. You may need to add '3.12.160.234' to ALLOWED_HOSTS.
+Bad Request: /
+[26/May/2025 19:08:49] "GET / HTTP/1.1" 400 63865
+Invalid HTTP_HOST header: '3.12.160.234:8000'. You may need to add '3.12.160.234' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '3.12.160.234:8000'. You may need to add '3.12.160.234' to ALLOWED_HOSTS.
+Bad Request: /
+[26/May/2025 19:08:57] "GET / HTTP/1.1" 400 64396
+[26/May/2025 19:08:59] code 505, message Invalid HTTP version (2.0)
+[26/May/2025 19:08:59] "PRI * HTTP/2.0" 505 -
+Invalid HTTP_HOST header: '3.12.160.234:8000'. You may need to add '3.12.160.234' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '3.12.160.234:8000'. You may need to add '3.12.160.234' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[26/May/2025 19:09:09] "GET /favicon.ico HTTP/1.1" 400 64418
+[26/May/2025 19:09:10] code 400, message Bad request version ('v\x90\x1b®ßû\x9c\x80KJ\x81g©\x01¡è\x99m\x8eºpT\x91yöë%\x9d\x84xf')
+[26/May/2025 19:09:10] You're accessing the development server over HTTPS, but it only supports HTTP.
+Invalid HTTP_HOST header: 'www.google.com:443'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.google.com:443'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Bad Request: /www.google.com:443
+[26/May/2025 19:23:08] "CONNECT www.google.com:443 HTTP/1.1" 400 64170
+[26/May/2025 19:25:01] "POST /login/ HTTP/1.1" 200 3270
+[26/May/2025 19:25:12] "GET /login/ HTTP/1.1" 200 3067
+[26/May/2025 19:25:25] "POST /login/ HTTP/1.1" 302 0
+[26/May/2025 19:25:25] "GET /home/ HTTP/1.1" 200 12077
+[26/May/2025 19:25:30] "GET /home/ HTTP/1.1" 302 0
+[26/May/2025 19:25:30] "GET /login/?next=/home/ HTTP/1.1" 200 3067
+[26/May/2025 19:25:36] "GET /registrar/ HTTP/1.1" 200 8464
+[26/May/2025 19:25:37] "GET /usuarios/ HTTP/1.1" 200 8284
+[26/May/2025 19:25:42] "GET /home/ HTTP/1.1" 200 12077
+[26/May/2025 19:25:44] "GET /usuarios/ HTTP/1.1" 302 0
+[26/May/2025 19:25:46] "GET /cadastro_tutor/ HTTP/1.1" 200 11463
+[26/May/2025 19:25:47] "GET /tutores/ HTTP/1.1" 200 12812
+[26/May/2025 19:25:50] "GET /tutores/ HTTP/1.1" 302 0
+[26/May/2025 19:25:50] "GET /login/?next=/tutores/ HTTP/1.1" 200 3067
+[26/May/2025 19:25:52] "GET /tutores/5/ HTTP/1.1" 200 7388
+[26/May/2025 19:25:56] "GET /home/ HTTP/1.1" 200 12077
+[26/May/2025 19:25:58] "POST /logout/ HTTP/1.1" 302 0
+[26/May/2025 19:25:59] "GET /login/ HTTP/1.1" 200 3067
+[26/May/2025 19:26:06,141] - Broken pipe from ('177.26.246.50', 60009)
+[26/May/2025 19:26:06,144] - Broken pipe from ('177.26.246.50', 60028)
+Invalid HTTP_HOST header: 'www.google.com:443'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.google.com:443'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Bad Request: /www.google.com:443
+[26/May/2025 19:38:40] "CONNECT www.google.com:443 HTTP/1.1" 400 64168
+Not Found: /favicon.ico
+[26/May/2025 20:48:09] "GET /favicon.ico HTTP/1.1" 404 8810
+[26/May/2025 20:48:19,502] - Broken pipe from ('187.10.95.94', 47638)
+[26/May/2025 20:51:06] "POST /login/ HTTP/1.1" 302 0
+[26/May/2025 20:51:07] "GET /home/ HTTP/1.1" 200 12077
+[26/May/2025 20:51:37] "GET /agendamento/ HTTP/1.1" 200 22443
+[26/May/2025 20:51:42] "GET /agendamento/ HTTP/1.1" 302 0
+[26/May/2025 20:51:42] "GET /login/?next=/agendamento/ HTTP/1.1" 200 3067
+[26/May/2025 20:52:20] "GET /cadastro_servico/ HTTP/1.1" 200 7780
+[26/May/2025 20:52:27] "GET /cadastro_tutor/ HTTP/1.1" 200 11463
+[26/May/2025 20:52:33] "GET /tutores/ HTTP/1.1" 200 12812
+[26/May/2025 20:52:42] "GET /tutores/1/ HTTP/1.1" 200 8366
+[26/May/2025 20:52:52] "GET /home/ HTTP/1.1" 200 12077
+[26/May/2025 20:53:05] "GET /cadastro_pet/ HTTP/1.1" 200 12678
+[26/May/2025 20:53:11] "GET /cadastro_servico/ HTTP/1.1" 200 7780
+[26/May/2025 20:53:14] "GET /cadastro_pet/ HTTP/1.1" 302 0
+[26/May/2025 20:53:14] "GET /cadastro_pet/ HTTP/1.1" 302 0
+[26/May/2025 20:53:14] "GET /login/?next=/cadastro_pet/ HTTP/1.1" 200 3067
+[26/May/2025 20:53:14] "GET /login/?next=/cadastro_pet/ HTTP/1.1" 200 3067
+[26/May/2025 20:53:15] "GET /agendamento/ HTTP/1.1" 200 22443
+[26/May/2025 20:53:23] "POST /logout/ HTTP/1.1" 302 0
+[26/May/2025 20:53:23] "GET /login/ HTTP/1.1" 200 3067
+[26/May/2025 20:53:34,780] - Broken pipe from ('177.26.245.144', 39180)
+[26/May/2025 21:28:31] code 400, message Bad request version ('}')
+[26/May/2025 21:28:31] "ÿ             ñ%   { "Ret" : 100, "SessionID" : "0x0" }" 400 -
+[26/May/2025 21:46:09] "GET / HTTP/1.1" 302 0
+[26/May/2025 21:46:09] "GET /login/ HTTP/1.1" 200 3067
+[26/May/2025 21:46:10] "GET /static/img/klug_pet_logo.jpg HTTP/1.1" 200 12494
+Not Found: /favicon.ico
+[26/May/2025 21:46:10] "GET /favicon.ico HTTP/1.1" 404 8810
+[26/May/2025 21:47:31] "POST /login/ HTTP/1.1" 302 0
+[26/May/2025 21:47:32] "GET /home/ HTTP/1.1" 200 12077
+[26/May/2025 21:47:32] "GET /static/img/user_avatar.jpg HTTP/1.1" 200 14632
+[26/May/2025 21:47:32] "GET /static/img/logo_rodape.jfif HTTP/1.1" 200 7607
+[26/May/2025 21:47:43] "GET /cadastro_tutor/ HTTP/1.1" 200 11463
+[26/May/2025 21:47:45] "GET /tutores/ HTTP/1.1" 200 12812
+[26/May/2025 21:47:48] "GET /tutores/editar/9/ HTTP/1.1" 200 11561
+[26/May/2025 21:47:52] "GET /tutores/9/ HTTP/1.1" 200 7372
+[26/May/2025 21:47:52] "GET /static/img/sem-foto.jpg HTTP/1.1" 200 6078
+[26/May/2025 21:47:59] "GET /tutores/6/ HTTP/1.1" 200 7391
+[26/May/2025 21:48:08] "GET /tutores/editar/7/ HTTP/1.1" 200 11581
+[26/May/2025 21:48:16] "POST /tutores/editar/7/ HTTP/1.1" 302 0
+[26/May/2025 21:48:16] "GET /cadastro_tutor/ HTTP/1.1" 200 11905
+[26/May/2025 21:48:20] "GET /tutores/ HTTP/1.1" 200 12812
+[26/May/2025 21:48:35] "GET /tutores/6/ HTTP/1.1" 200 7391
+[26/May/2025 21:48:41] "GET /tutores/5/ HTTP/1.1" 200 7388
+[26/May/2025 21:48:45] "GET /tutores/4/ HTTP/1.1" 200 7377
+[26/May/2025 21:54:51] "GET /tutores/10/ HTTP/1.1" 200 7383
+[26/May/2025 21:54:55] "GET /home/ HTTP/1.1" 200 12077
+[26/May/2025 21:54:56] "GET /agendamento/ HTTP/1.1" 200 22443
+Invalid HTTP_HOST header: 'www.google.com:443'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.google.com:443'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Bad Request: /www.google.com:443
+[26/May/2025 21:55:31] "CONNECT www.google.com:443 HTTP/1.1" 400 64170
+[26/May/2025 21:55:40] "POST /agendamento/ HTTP/1.1" 302 0
+[26/May/2025 21:55:41] "GET /agendamento/ HTTP/1.1" 200 22881
+[26/May/2025 21:55:44] "GET /agendamentos/ HTTP/1.1" 200 14758
+[26/May/2025 21:55:51] "GET /nota/8/ HTTP/1.1" 200 4553
+[26/May/2025 21:55:51] "GET /static/img/klug_pet_logo.png HTTP/1.1" 200 24408
+[26/May/2025 21:56:05] "GET /home/ HTTP/1.1" 200 12077
+[26/May/2025 21:56:15] "GET /home/ HTTP/1.1" 200 12077
+Invalid HTTP_HOST header: '3.12.160.234:8000'. You may need to add '3.12.160.234' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '3.12.160.234:8000'. You may need to add '3.12.160.234' to ALLOWED_HOSTS.
+Bad Request: /api/client/update
+[26/May/2025 22:27:48] "POST /api/client/update?arch=amd64&commit=08059e95dacafe0bf6e5782f8e2c8ec9cd8c5a17&os=windows HTTP/1.1" 400 65642
+[26/May/2025 23:37:47] code 400, message Bad request version ('À\x14À')
+[26/May/2025 23:37:47] You're accessing the development server over HTTPS, but it only supports HTTP.
+[26/May/2025 23:37:47] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00u\x01\x00\x00q\x03\x03Àð,5Ë\x1a´ÓN\xadê·Ûgq\x98\x88F\x95çI´\x88îZ\x0f®hDt\x96Ý\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+[26/May/2025 23:37:47] You're accessing the development server over HTTPS, but it only supports HTTP.
+[26/May/2025 23:37:47] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00u\x01\x00\x00q\x03\x03ïG(É\x929³h÷=lK\x84"Ìyù\x91\x89§¬EfåkÀb}ú\x90ù#\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+[26/May/2025 23:37:47] You're accessing the development server over HTTPS, but it only supports HTTP.
+[26/May/2025 23:37:48] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00u\x01\x00\x00q\x03\x03·ù&')
+[26/May/2025 23:37:48] You're accessing the development server over HTTPS, but it only supports HTTP.
+Invalid HTTP_HOST header: 'www.google.com:443'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.google.com:443'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Bad Request: /www.google.com:443
+[27/May/2025 00:23:57] "CONNECT www.google.com:443 HTTP/1.1" 400 64170
+Invalid HTTP_HOST header: 'www.google.com:443'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.google.com:443'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Bad Request: /www.google.com:443
+[27/May/2025 01:05:08] "CONNECT www.google.com:443 HTTP/1.1" 400 64169
+Invalid HTTP_HOST header: 'www.google.com:443'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.google.com:443'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Bad Request: /www.google.com:443
+[27/May/2025 02:55:33] "CONNECT www.google.com:443 HTTP/1.1" 400 64170
+Invalid HTTP_HOST header: 'www.google.com:443'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.google.com:443'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Bad Request: /www.google.com:443
+[27/May/2025 03:36:23] "CONNECT www.google.com:443 HTTP/1.1" 400 64169
+Invalid HTTP_HOST header: 'www.google.com:443'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.google.com:443'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Bad Request: /www.google.com:443
+[27/May/2025 05:46:25] "CONNECT www.google.com:443 HTTP/1.1" 400 64168
+[27/May/2025 09:16:42] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03\x9a\x038LNû\xad7â¯\x82q\x84Ã')
+[27/May/2025 09:16:42] You're accessing the development server over HTTPS, but it only supports HTTP.
+[27/May/2025 09:17:17] code 400, message Bad request syntax ('MGLNDD_3.12.160.234_8000')
+[27/May/2025 09:17:17] "MGLNDD_3.12.160.234_8000" 400 -
+Not Found: /favicon.ico
+[27/May/2025 12:07:38] "GET /favicon.ico HTTP/1.1" 404 8810
+[27/May/2025 12:07:47] "POST /login/ HTTP/1.1" 302 0
+[27/May/2025 12:07:47] "GET /home/ HTTP/1.1" 200 12077
+[27/May/2025 12:07:50] "GET /cadastro_tutor/ HTTP/1.1" 200 11463
+[27/May/2025 12:07:51] "GET /tutores/ HTTP/1.1" 200 12812
+[27/May/2025 12:07:57] "GET /home/ HTTP/1.1" 200 12077
+[27/May/2025 12:08:02] "GET /home/ HTTP/1.1" 302 0
+[27/May/2025 12:08:02] "POST /logout/ HTTP/1.1" 302 0
+[27/May/2025 12:08:02] "GET /login/?next=/home/ HTTP/1.1" 200 3067
+[27/May/2025 12:08:03] "GET /login/ HTTP/1.1" 200 3067
+[27/May/2025 12:08:12,258] - Broken pipe from ('177.26.233.169', 18146)
+[27/May/2025 12:43:07,742] - Broken pipe from ('5.137.53.19', 58803)
+Invalid HTTP_HOST header: '3.12.160.234'. You may need to add '3.12.160.234' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '3.12.160.234'. You may need to add '3.12.160.234' to ALLOWED_HOSTS.
+Bad Request: /
+[27/May/2025 13:05:45] "GET / HTTP/1.1" 400 66155
+Invalid HTTP_HOST header: '3.12.160.234'. You may need to add '3.12.160.234' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '3.12.160.234'. You may need to add '3.12.160.234' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[27/May/2025 13:05:45] "GET /favicon.ico HTTP/1.1" 400 66318
+[27/May/2025 14:26:23] code 400, message Bad request version ('\x00\x9eÌ¨Ìª\x003\x00=\x00\x16À')
+[27/May/2025 14:26:23] You're accessing the development server over HTTPS, but it only supports HTTP.
+Invalid HTTP_HOST header: '3.12.160.234:8000'. You may need to add '3.12.160.234' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '3.12.160.234:8000'. You may need to add '3.12.160.234' to ALLOWED_HOSTS.
+Bad Request: /
+[27/May/2025 14:26:34] "GET / HTTP/1.1" 400 64469
+Invalid HTTP_HOST header: '3.12.160.234:8000'. You may need to add '3.12.160.234' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '3.12.160.234:8000'. You may need to add '3.12.160.234' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[27/May/2025 14:26:35] "GET /favicon.ico HTTP/1.1" 400 64849
+Invalid HTTP_HOST header: '3.12.160.234:8000'. You may need to add '3.12.160.234' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '3.12.160.234:8000'. You may need to add '3.12.160.234' to ALLOWED_HOSTS.
+Bad Request: /robots.txt
+[27/May/2025 14:26:36] "GET /robots.txt HTTP/1.1" 400 64838
+Invalid HTTP_HOST header: '3.12.160.234:8000'. You may need to add '3.12.160.234' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '3.12.160.234:8000'. You may need to add '3.12.160.234' to ALLOWED_HOSTS.
+Bad Request: /sitemap.xml
+[27/May/2025 14:26:38] "GET /sitemap.xml HTTP/1.1" 400 64849
+[27/May/2025 15:24:27] code 400, message Bad request version ('À\x14À')
+[27/May/2025 15:24:27] You're accessing the development server over HTTPS, but it only supports HTTP.
+[27/May/2025 15:24:27] code 400, message Bad request version ('À\x14À')
+[27/May/2025 15:24:27] You're accessing the development server over HTTPS, but it only supports HTTP.
+[27/May/2025 15:24:27] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00u\x01\x00\x00q\x03\x03JLå\x86|3(BMb\x19,¾}*+|êª\x12º?î©µeý\x00\x16\x9eû{\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+[27/May/2025 15:24:27] You're accessing the development server over HTTPS, but it only supports HTTP.
+[27/May/2025 15:24:27] code 400, message Bad request version ('À\x14À')
+[27/May/2025 15:24:27] You're accessing the development server over HTTPS, but it only supports HTTP.
+Invalid HTTP_HOST header: '3.12.160.234:8000'. You may need to add '3.12.160.234' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '3.12.160.234:8000'. You may need to add '3.12.160.234' to ALLOWED_HOSTS.
+Bad Request: /
+[27/May/2025 17:44:36] "GET / HTTP/1.1" 400 64410
+Invalid HTTP_HOST header: '3.12.160.234:8000'. You may need to add '3.12.160.234' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '3.12.160.234:8000'. You may need to add '3.12.160.234' to ALLOWED_HOSTS.
+Bad Request: /
+[27/May/2025 17:46:32] "GET / HTTP/1.1" 400 64410
+[27/May/2025 17:46:53] code 400, message Bad request version ('À\x14À')
+[27/May/2025 17:46:53] You're accessing the development server over HTTPS, but it only supports HTTP.
+[27/May/2025 17:49:10] code 400, message Bad request syntax ('SSH-2.0-Go')
+[27/May/2025 17:49:10] "SSH-2.0-Go" 400 -
+[27/May/2025 17:50:19] code 400, message Bad request version ('À\x14À')
+[27/May/2025 17:50:19] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /favicon.ico
+[27/May/2025 18:21:13] "GET /favicon.ico HTTP/1.1" 404 8810
+[27/May/2025 18:21:22] "POST /login/ HTTP/1.1" 302 0
+[27/May/2025 18:21:22] "GET /home/ HTTP/1.1" 200 12077
+[27/May/2025 18:21:25] "GET /cadastro_tutor/ HTTP/1.1" 200 11463
+[27/May/2025 18:21:27] "GET /tutores/ HTTP/1.1" 200 12812
+[27/May/2025 18:21:29] "GET /cadastro_tutor/ HTTP/1.1" 302 0
+[27/May/2025 18:21:29] "GET /login/?next=/cadastro_tutor/ HTTP/1.1" 200 3067
+[27/May/2025 18:21:30] "GET /tutores/ HTTP/1.1" 302 0
+[27/May/2025 18:21:30] "GET /login/?next=/tutores/ HTTP/1.1" 200 3067
+[27/May/2025 18:21:31] "GET /home/ HTTP/1.1" 200 12077
+[27/May/2025 18:21:33] "GET /cadastro_pet/ HTTP/1.1" 200 12678
+[27/May/2025 18:21:34] "GET /pets/ HTTP/1.1" 200 14356
+[27/May/2025 18:21:40] "GET /home/ HTTP/1.1" 200 12077
+[27/May/2025 18:21:44] "GET /cadastro_servico/ HTTP/1.1" 200 7780
+[27/May/2025 18:21:45] "GET /home/ HTTP/1.1" 302 0
+[27/May/2025 18:21:45] "GET /login/?next=/home/ HTTP/1.1" 200 3067
+[27/May/2025 18:21:45] "GET /servicos/ HTTP/1.1" 200 9585
+[27/May/2025 18:21:52] "GET /servicos/editar/6/ HTTP/1.1" 200 7842
+[27/May/2025 18:21:53] "GET /servicos/ HTTP/1.1" 302 0
+[27/May/2025 18:21:53] "GET /servicos/ HTTP/1.1" 302 0
+[27/May/2025 18:21:53] "GET /login/?next=/servicos/ HTTP/1.1" 200 3067
+[27/May/2025 18:21:53] "GET /login/?next=/servicos/ HTTP/1.1" 200 3067
+[27/May/2025 18:21:56] "GET /servicos/editar/6/ HTTP/1.1" 302 0
+[27/May/2025 18:21:57] "GET /login/?next=/servicos/editar/6/ HTTP/1.1" 200 3067
+[27/May/2025 18:22:07] "POST /servicos/editar/6/ HTTP/1.1" 302 0
+[27/May/2025 18:22:07] "GET /cadastro_servico/ HTTP/1.1" 200 8203
+[27/May/2025 18:22:11] "GET /servicos/ HTTP/1.1" 200 9588
+[27/May/2025 18:22:33] "GET /home/ HTTP/1.1" 200 12077
+[27/May/2025 18:22:36] "GET /agendamento/ HTTP/1.1" 200 22449
+[27/May/2025 18:22:41] "GET /agendamentos/ HTTP/1.1" 200 14761
+[27/May/2025 18:22:47] "GET /agendamentos/ HTTP/1.1" 302 0
+[27/May/2025 18:22:48] "GET /login/?next=/agendamentos/ HTTP/1.1" 200 3067
+[27/May/2025 18:22:52] "GET /home/ HTTP/1.1" 200 12077
+[27/May/2025 18:22:57] "POST /logout/ HTTP/1.1" 302 0
+[27/May/2025 18:22:57] "GET /login/ HTTP/1.1" 200 3067
+[27/May/2025 18:23:04,836] - Broken pipe from ('177.26.233.104', 53347)
+Invalid HTTP_HOST header: 'www.google.com:443'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.google.com:443'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Bad Request: /www.google.com:443
+[27/May/2025 18:50:53] "CONNECT www.google.com:443 HTTP/1.1" 400 64169
+Invalid HTTP_HOST header: 'www.google.com:443'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.google.com:443'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Bad Request: /www.google.com:443
+[27/May/2025 19:28:52] "CONNECT www.google.com:443 HTTP/1.1" 400 64169
+Invalid HTTP_HOST header: '3.12.160.234:8000'. You may need to add '3.12.160.234' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '3.12.160.234:8000'. You may need to add '3.12.160.234' to ALLOWED_HOSTS.
+Bad Request: /
+[27/May/2025 20:40:43] "GET / HTTP/1.1" 400 64586
+Invalid HTTP_HOST header: '3.12.160.234:8000'. You may need to add '3.12.160.234' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '3.12.160.234:8000'. You may need to add '3.12.160.234' to ALLOWED_HOSTS.
+Bad Request: /
+[27/May/2025 20:59:11] "GET / HTTP/1.1" 400 64299
+[27/May/2025 21:20:14] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[27/May/2025 21:20:14] "    c                           " 400 -
+[27/May/2025 22:06:15] "POST /login/ HTTP/1.1" 302 0
+[27/May/2025 22:06:15] "GET /home/ HTTP/1.1" 200 12077
+[27/May/2025 22:06:16] "GET /static/img/klug_pet_logo.jpg HTTP/1.1" 304 0
+[27/May/2025 22:06:16] "GET /static/img/user_avatar.jpg HTTP/1.1" 304 0
+[27/May/2025 22:06:16] "GET /static/img/logo_rodape.jfif HTTP/1.1" 304 0
+[27/May/2025 22:06:34] "GET /cadastro_tutor/ HTTP/1.1" 200 11463
+[27/May/2025 22:06:38] "GET /cadastro_pet/ HTTP/1.1" 200 12678
+[27/May/2025 22:06:53] "GET /cadastro_servico/ HTTP/1.1" 200 7780
+[27/May/2025 22:06:57] "GET /agendamento/ HTTP/1.1" 200 22449
+[27/May/2025 22:07:01] "GET /cadastro_servico/ HTTP/1.1" 302 0
+[27/May/2025 22:07:01] "GET /cadastro_servico/ HTTP/1.1" 302 0
+[27/May/2025 22:07:01] "GET /login/?next=/cadastro_servico/ HTTP/1.1" 200 3067
+[27/May/2025 22:07:01] "GET /agendamento/ HTTP/1.1" 302 0
+[27/May/2025 22:07:01] "GET /login/?next=/cadastro_servico/ HTTP/1.1" 200 3067
+[27/May/2025 22:07:02] "GET /login/?next=/agendamento/ HTTP/1.1" 200 3067
+[27/May/2025 22:07:09] "POST /logout/ HTTP/1.1" 302 0
+[27/May/2025 22:07:09] "GET /login/ HTTP/1.1" 200 3067
+[27/May/2025 22:07:25,053] - Broken pipe from ('177.26.234.99', 27546)
+[27/May/2025 22:07:25,060] - Broken pipe from ('177.26.234.99', 27534)
+[27/May/2025 22:07:25,062] - Broken pipe from ('177.26.234.99', 27538)
+[27/May/2025 22:07:25,063] - Broken pipe from ('177.26.234.99', 27547)
+Invalid HTTP_HOST header: '3.12.160.234:8000'. You may need to add '3.12.160.234' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '3.12.160.234:8000'. You may need to add '3.12.160.234' to ALLOWED_HOSTS.
+Bad Request: /aaa9
+[27/May/2025 22:45:30] "GET /aaa9 HTTP/1.1" 400 64237
+Invalid HTTP_HOST header: '3.12.160.234:8000'. You may need to add '3.12.160.234' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '3.12.160.234:8000'. You may need to add '3.12.160.234' to ALLOWED_HOSTS.
+Bad Request: /aab8
+[27/May/2025 22:45:31] "GET /aab8 HTTP/1.1" 400 64237
+Invalid HTTP_HOST header: '3.12.160.234:8000'. You may need to add '3.12.160.234' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '3.12.160.234:8000'. You may need to add '3.12.160.234' to ALLOWED_HOSTS.
+Bad Request: /
+[27/May/2025 22:45:32] "GET / HTTP/1.1" 400 64298
+Invalid HTTP_HOST header: 'www.google.com:443'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.google.com:443'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Bad Request: /www.google.com:443
+[27/May/2025 23:25:45] "CONNECT www.google.com:443 HTTP/1.1" 400 64168
+Not Found: /favicon.ico
+[28/May/2025 01:18:06] "GET /favicon.ico HTTP/1.1" 404 8810
+[28/May/2025 01:18:55,931] - Broken pipe from ('187.10.95.94', 57692)
+Invalid HTTP_HOST header: 'www.google.com:443'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.google.com:443'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Bad Request: /www.google.com:443
+[28/May/2025 01:47:19] "CONNECT www.google.com:443 HTTP/1.1" 400 64170
+Invalid HTTP_HOST header: 'www.google.com:443'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.google.com:443'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Bad Request: /www.google.com:443
+[28/May/2025 01:58:36] "CONNECT www.google.com:443 HTTP/1.1" 400 64168
+Invalid HTTP_HOST header: '3.12.160.234:8000'. You may need to add '3.12.160.234' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '3.12.160.234:8000'. You may need to add '3.12.160.234' to ALLOWED_HOSTS.
+Bad Request: /
+[28/May/2025 01:59:28] "GET / HTTP/1.1" 400 64410
+Invalid HTTP_HOST header: '3.12.160.234:8000'. You may need to add '3.12.160.234' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '3.12.160.234:8000'. You may need to add '3.12.160.234' to ALLOWED_HOSTS.
+Bad Request: /
+[28/May/2025 02:01:03] "GET / HTTP/1.1" 400 64410
+[28/May/2025 02:02:32] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x0356t\x1aá\x07Y')
+[28/May/2025 02:02:32] You're accessing the development server over HTTPS, but it only supports HTTP.
+[28/May/2025 02:04:03] code 400, message Bad request syntax ('SSH-2.0-Go')
+[28/May/2025 02:04:03] "SSH-2.0-Go" 400 -
+[28/May/2025 02:05:22] code 400, message Bad request version ('À\x14À')
+[28/May/2025 02:05:22] You're accessing the development server over HTTPS, but it only supports HTTP.
+Invalid HTTP_HOST header: 'www.google.com:443'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.google.com:443'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Bad Request: /www.google.com:443
+[28/May/2025 04:26:52] "CONNECT www.google.com:443 HTTP/1.1" 400 64170
+Invalid HTTP_HOST header: '3.12.160.234:8000'. You may need to add '3.12.160.234' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '3.12.160.234:8000'. You may need to add '3.12.160.234' to ALLOWED_HOSTS.
+Bad Request: /
+[28/May/2025 04:34:37] "GET / HTTP/1.1" 400 64283
+Invalid HTTP_HOST header: '3.12.160.234:8000'. You may need to add '3.12.160.234' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '3.12.160.234:8000'. You may need to add '3.12.160.234' to ALLOWED_HOSTS.
+Bad Request: /
+[28/May/2025 05:23:41] "GET / HTTP/1.1" 400 64453
+Invalid HTTP_HOST header: 'api.ipify.org'. You may need to add 'api.ipify.org' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.ipify.org'. You may need to add 'api.ipify.org' to ALLOWED_HOSTS.
+Bad Request: /http:/api.ipify.org/
+[28/May/2025 05:24:56] "GET http://api.ipify.org/?format=json HTTP/1.1" 400 64674
+Invalid HTTP_HOST header: 'www.shadowserver.org'. You may need to add 'www.shadowserver.org' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.shadowserver.org'. You may need to add 'www.shadowserver.org' to ALLOWED_HOSTS.
+Bad Request: /www.shadowserver.org:443
+[28/May/2025 05:25:18] "CONNECT www.shadowserver.org:443 HTTP/1.1" 400 64853
+Invalid HTTP_HOST header: '3.12.160.234:8000'. You may need to add '3.12.160.234' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '3.12.160.234:8000'. You may need to add '3.12.160.234' to ALLOWED_HOSTS.
+Bad Request: /
+[28/May/2025 05:30:50] "GET / HTTP/1.1" 400 64396
+[28/May/2025 05:30:54] code 505, message Invalid HTTP version (2.0)
+[28/May/2025 05:30:54] "PRI * HTTP/2.0" 505 -
+Invalid HTTP_HOST header: '3.12.160.234:8000'. You may need to add '3.12.160.234' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '3.12.160.234:8000'. You may need to add '3.12.160.234' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[28/May/2025 05:31:17] "GET /favicon.ico HTTP/1.1" 400 64418
+[28/May/2025 05:31:26] code 400, message Bad request version ('À\x14À')
+[28/May/2025 05:31:26] You're accessing the development server over HTTPS, but it only supports HTTP.
+[28/May/2025 06:17:59] code 400, message Bad request syntax ('MGLNDD_3.12.160.234_8000')
+[28/May/2025 06:17:59] "MGLNDD_3.12.160.234_8000" 400 -
+[28/May/2025 06:38:12] code 400, message Bad request version ('À\x14À')
+[28/May/2025 06:38:12] You're accessing the development server over HTTPS, but it only supports HTTP.
+[28/May/2025 06:38:12] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00u\x01\x00\x00q\x03\x03\x90"\x8a\x04Á¤ñk7\x84\x99ÔdVwVÌ\xad°½K¸Ã¡è^ä¢.\x9a½\x1b\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+[28/May/2025 06:38:12] You're accessing the development server over HTTPS, but it only supports HTTP.
+[28/May/2025 06:38:12] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00u\x01\x00\x00q\x03\x03\x11&ÓÒ?éì±DÒcÂDþ\x9f\x87\x8bz=!¥ò¶¨[¨Y`Fê1Å\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+[28/May/2025 06:38:12] You're accessing the development server over HTTPS, but it only supports HTTP.
+[28/May/2025 06:38:12] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00u\x01\x00\x00q\x03\x03\x82hS\x92|ÕNëWt\x17K\x86´çøÍ0ý\x87bÄ\x99&ÒËÌ«\x01\x1a«Ô\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+[28/May/2025 06:38:12] You're accessing the development server over HTTPS, but it only supports HTTP.
+Invalid HTTP_HOST header: 'www.google.com:443'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.google.com:443'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Bad Request: /www.google.com:443
+[28/May/2025 07:36:21] "CONNECT www.google.com:443 HTTP/1.1" 400 64169
+Invalid HTTP_HOST header: 'www.google.com:443'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.google.com:443'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Bad Request: /www.google.com:443
+[28/May/2025 08:14:11] "CONNECT www.google.com:443 HTTP/1.1" 400 64169
+[28/May/2025 08:45:02] code 400, message Bad request version ('À\x13À')
+[28/May/2025 08:45:02] You're accessing the development server over HTTPS, but it only supports HTTP.
+[28/May/2025 08:45:13] code 400, message Bad request version ('À\x13À')
+[28/May/2025 08:45:13] You're accessing the development server over HTTPS, but it only supports HTTP.
+[28/May/2025 08:45:13] code 400, message Bad request version ('À\x13À')
+[28/May/2025 08:45:13] You're accessing the development server over HTTPS, but it only supports HTTP.
+Invalid HTTP_HOST header: '3.12.160.234:8000'. You may need to add '3.12.160.234' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '3.12.160.234:8000'. You may need to add '3.12.160.234' to ALLOWED_HOSTS.
+Bad Request: /
+[28/May/2025 08:45:13] "GET / HTTP/1.1" 400 64392
+Invalid HTTP_HOST header: 'www.google.com:443'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.google.com:443'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Bad Request: /www.google.com:443
+[28/May/2025 12:08:18] "CONNECT www.google.com:443 HTTP/1.1" 400 64170
+Not Found: /favicon.ico
+[28/May/2025 12:40:47] "GET /favicon.ico HTTP/1.1" 404 8810
+[28/May/2025 12:40:57] "POST /login/ HTTP/1.1" 302 0
+[28/May/2025 12:40:57] "GET /home/ HTTP/1.1" 200 12077
+[28/May/2025 12:41:02] "GET /home/ HTTP/1.1" 302 0
+[28/May/2025 12:41:03] "GET /login/?next=/home/ HTTP/1.1" 200 3067
+[28/May/2025 12:41:03] "GET /cadastro_tutor/ HTTP/1.1" 200 11463
+[28/May/2025 12:41:05] "GET /tutores/ HTTP/1.1" 200 12812
+[28/May/2025 12:41:10] "GET /tutores/ HTTP/1.1" 302 0
+[28/May/2025 12:41:10] "GET /login/?next=/tutores/ HTTP/1.1" 200 3067
+[28/May/2025 12:41:13] "GET /tutores/1/ HTTP/1.1" 200 8366
+[28/May/2025 12:41:13] "GET /media/pets/border.jpg HTTP/1.1" 304 0
+[28/May/2025 12:41:13] "GET /static/img/sem-foto.jpg HTTP/1.1" 304 0
+[28/May/2025 12:41:19] "GET /tutores/1/ HTTP/1.1" 302 0
+[28/May/2025 12:41:19] "GET /login/?next=/tutores/1/ HTTP/1.1" 200 3067
+[28/May/2025 12:41:24] "GET /home/ HTTP/1.1" 200 12077
+[28/May/2025 12:41:26] "GET /cadastro_pet/ HTTP/1.1" 200 12678
+[28/May/2025 12:41:27] "GET /pets/ HTTP/1.1" 200 14356
+[28/May/2025 12:41:50] "GET /home/ HTTP/1.1" 200 12077
+[28/May/2025 12:41:53] "GET /cadastro_servico/ HTTP/1.1" 200 7780
+[28/May/2025 12:41:56] "GET /cadastro_pet/ HTTP/1.1" 200 12678
+Invalid HTTP_HOST header: 'www.google.com:443'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.google.com:443'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Bad Request: /www.google.com:443
+[28/May/2025 12:42:03] "CONNECT www.google.com:443 HTTP/1.1" 400 64169
+[28/May/2025 12:43:19] "GET /home/ HTTP/1.1" 200 12077
+[28/May/2025 12:43:22] "GET /agendamento/ HTTP/1.1" 200 22449
+[28/May/2025 12:43:27] "GET /agendamentos/ HTTP/1.1" 200 14761
+[28/May/2025 12:43:27] "GET /agendamento/ HTTP/1.1" 302 0
+[28/May/2025 12:43:27] "GET /login/?next=/agendamento/ HTTP/1.1" 200 3067
+[28/May/2025 12:43:37] "GET /agendamento/ HTTP/1.1" 200 22449
+[28/May/2025 12:44:04] "POST /agendamento/ HTTP/1.1" 302 0
+[28/May/2025 12:44:05] "GET /agendamento/ HTTP/1.1" 200 22887
+[28/May/2025 12:44:10] "GET /agendamentos/ HTTP/1.1" 200 15865
+[28/May/2025 12:44:17] "GET /nota/9/ HTTP/1.1" 200 4549
+[28/May/2025 12:44:18] "GET /static/img/klug_pet_logo.png HTTP/1.1" 304 0
+[28/May/2025 12:44:22] "GET /nota/9/ HTTP/1.1" 302 0
+[28/May/2025 12:44:22] "GET /login/?next=/nota/9/ HTTP/1.1" 200 3067
+[28/May/2025 12:44:39] "GET /home/ HTTP/1.1" 200 12077
+[28/May/2025 12:44:41] "POST /logout/ HTTP/1.1" 302 0
+[28/May/2025 12:44:42] "GET /login/ HTTP/1.1" 200 3067
+[28/May/2025 12:44:49,702] - Broken pipe from ('177.26.244.44', 17938)
+[28/May/2025 12:44:49,703] - Broken pipe from ('177.26.244.44', 17939)
+Invalid HTTP_HOST header: 'www.google.com:443'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.google.com:443'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Bad Request: /www.google.com:443
+[28/May/2025 14:36:05] "CONNECT www.google.com:443 HTTP/1.1" 400 64170
+[28/May/2025 15:16:42] code 400, message Bad request version ('À\x13À')
+[28/May/2025 15:16:42] You're accessing the development server over HTTPS, but it only supports HTTP.
+[28/May/2025 15:16:52] code 400, message Bad request version ('À\x13À')
+[28/May/2025 15:16:52] You're accessing the development server over HTTPS, but it only supports HTTP.
+[28/May/2025 15:16:53] code 400, message Bad request version ('À\x13À')
+[28/May/2025 15:16:53] You're accessing the development server over HTTPS, but it only supports HTTP.
+Invalid HTTP_HOST header: '3.12.160.234:8000'. You may need to add '3.12.160.234' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '3.12.160.234:8000'. You may need to add '3.12.160.234' to ALLOWED_HOSTS.
+Bad Request: /
+[28/May/2025 15:16:53] "GET / HTTP/1.1" 400 64402
+Invalid HTTP_HOST header: '3.12.160.234:8000'. You may need to add '3.12.160.234' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/projeto_integrado_5_ADS/venv/lib/python3.12/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '3.12.160.234:8000'. You may need to add '3.12.160.234' to ALLOWED_HOSTS.
+Bad Request: /
+[28/May/2025 15:26:56] "GET / HTTP/1.1" 400 64283
+Not Found: /favicon.ico
+[28/May/2025 18:47:36] "GET /favicon.ico HTTP/1.1" 404 8810
+[28/May/2025 18:47:41,603] - Broken pipe from ('189.98.242.68', 8787)
+[28/May/2025 18:47:41,604] - Broken pipe from ('189.98.242.68', 8781)
+[28/May/2025 18:55:05] code 400, message Bad request version ('À\x14À')
+[28/May/2025 18:55:05] You're accessing the development server over HTTPS, but it only supports HTTP.
+[28/May/2025 20:11:51] code 400, message Bad request version ('À\x14À')
+[28/May/2025 20:11:51] You're accessing the development server over HTTPS, but it only supports HTTP.
+[28/May/2025 20:22:57] code 400, message Bad request version ('À\x14À')
+[28/May/2025 20:22:57] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /favicon.ico
+[28/May/2025 21:06:11] "GET /favicon.ico HTTP/1.1" 404 8810
+[28/May/2025 21:09:27] code 400, message Bad HTTP/0.9 request type ("\x16\x03\x01\x00u\x01\x00\x00q\x03\x03\x13a\x12f\x02N(*\x1b\x88mõ\x86&M£Ï\x18+ç'$\x8c\x8b%\x07\x8b\x89ÊfHã\x00\x00\x1aÀ/À+À\x11À\x07À\x13À")
+[28/May/2025 21:09:27] You're accessing the development server over HTTPS, but it only supports HTTP.
+[28/May/2025 21:22:17,693] - Broken pipe from ('187.10.95.94', 49954)
+[28/May/2025 22:28:38] code 400, message Bad request version ('À\x14À')
+[28/May/2025 22:28:38] You're accessing the development server over HTTPS, but it only supports HTTP.
+[28/May/2025 22:28:38] code 400, message Bad request version ('À\x14À')
+[28/May/2025 22:28:38] You're accessing the development server over HTTPS, but it only supports HTTP.
+[28/May/2025 22:28:38] code 400, message Bad request version ('À\x14À')
+[28/May/2025 22:28:38] You're accessing the development server over HTTPS, but it only supports HTTP.
+[28/May/2025 22:28:38] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00u\x01\x00\x00q\x03\x03:\x82\x87&A\x01«\x13ûa>\x84\x97K9ù\x9dº°¤¬ºS\x81S\x16\x08>%\x9c¥N\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+[28/May/2025 22:28:38] You're accessing the development server over HTTPS, but it only supports HTTP.

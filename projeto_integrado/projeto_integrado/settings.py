@@ -30,7 +30,7 @@ DEBUG = True
 
 AUTH_USER_MODEL = 'klugpet.Usuario'
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ['projetointegrado5ads.website','www.projetointegrado5ads.website','3.17.183.160']
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
