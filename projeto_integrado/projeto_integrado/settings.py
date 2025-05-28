@@ -30,7 +30,7 @@ DEBUG = True
 
 AUTH_USER_MODEL = 'klugpet.Usuario'
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ['*']
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
@@ -53,9 +53,9 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_USE_TLS = True
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'seu_email@gmail.com'  # Substitua pelo seu email
-EMAIL_HOST_PASSWORD = 'app_password_google'  # Utilize uma App Password se estiver usando autenticação de dois fatores
-DEFAULT_FROM_EMAIL = 'seu_email@gmail.com'  # Ou outro email que deseja usar como remetente
+EMAIL_HOST_USER = 'rodrigo12crt@gmail.com'  # Substitua pelo seu email
+EMAIL_HOST_PASSWORD = 'mxgh rctc dryo dsbi'  # Utilize uma App Password se estiver usando autenticação de dois fatores
+DEFAULT_FROM_EMAIL = 'rmachado12crt@hotmail.com'  # Ou outro email que deseja usar como remetente
 
 
 MESSAGE_TAGS = {
