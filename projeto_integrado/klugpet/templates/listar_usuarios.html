@@ -54,13 +54,15 @@
                     <td>{{ usuario.get_nivel_display }}</td>
                     <td>
                         <!-- Botões -->
-                        <a href="{% url 'editar_usuario' usuario.id %}" class="btn btn-sm btn-warning me-1" title="Editar">
+                        <div class="d-grid gap-2 d-md-block">
+                        <a href="{% url 'editar_usuario' usuario.id %}" class="btn btn-warning btn-sm" title="Editar">
                             ✏️ Editar
                         </a>
-                        <a href="{% url 'excluir_usuario' usuario.id %}" class="btn btn-sm btn-danger" title="Excluir"
+                        <a href="{% url 'excluir_usuario' usuario.id %}" class="btn btn-danger btn-sm" title="Excluir"
                         onclick="return confirm('Tem certeza que deseja excluir este usuário?');">
                             🗑️ Excluir
                         </a>
+                        </div>
                     </td>
                 </tr>
                 {% empty %}

@@ -64,8 +64,10 @@
                     </a>
                 </td>
                 <td>
-                    <a href="{% url 'editar_tutor' tutor.id %}" class="btn btn-warning btn-sm">✏️ Editar</a>
-                    <a href="{% url 'excluir_tutor' tutor.id %}" class="btn btn-danger btn-sm" onclick="return confirm('Tem certeza que deseja excluir este tutor?');">🗑️ Excluir</a>
+                    <div class="d-grid gap-2 d-md-block">
+                        <a href="{% url 'editar_tutor' tutor.id %}" class="btn btn-warning btn-sm">✏️ Editar</a>
+                        <a href="{% url 'excluir_tutor' tutor.id %}" class="btn btn-danger btn-sm" onclick="return confirm('Tem certeza que deseja excluir este tutor?');">🗑️ Excluir</a>
+                    </div>
                 </td>
             </tr>
             {% empty %}
