@@ -344,7 +344,7 @@ def editar_pet(request, pet_id):
         pet.raca = request.POST.get("raca")
         pet.idade = request.POST.get("idade")
         pet.sexo = request.POST.get("sexo")
-        pet.peso = request.POST.get("peso")
+        pet.peso = request.POST.get("peso") or None
         pet.observacoes_medicas = request.POST.get("observacoes_medicas")
         pet.tutor_id = request.POST.get("tutor")
 

@@ -2,7 +2,7 @@
 {% load widget_tweaks %}
 
 {% block title %}
-    {% if pet %}Klug Pet - Editar Pet{% else %}Klug Pet - Cadastro de Pet{% endif %}
+    {% if pet %}Paw Pals - Editar Pet{% else %}Paw Pals - Cadastro de Pet{% endif %}
 {% endblock %}
 
 {% block content %}
@@ -83,7 +83,7 @@
                     <!-- Peso do Pet -->
                     <div class="mb-3">
                         <label for="peso" class="form-label">Peso (kg):</label>
-                        <input type="number" class="form-control" id="peso" name="peso" step="0.1" value="{{ pet.peso|default_if_none:'' }}">
+                        <input type="number" class="form-control" id="peso" name="peso" step="0.1" value="{{ pet.peso|default_if_none:'' }}" required>
                     </div>
 
                     <!-- Seleciona o Sexo -->
@@ -110,8 +110,8 @@
 
                     <!-- Observações -->
                     <div class="mb-3">
-                        <label for="observacoes" class="form-label">Observações:</label>
-                        <textarea class="form-control" id="observacoes" name="observacoes" rows="3">{{ pet.observacoes|default_if_none:'' }}</textarea>
+                        <label for="observacoes_medicas" class="form-label">Observações:</label>
+                        <textarea class="form-control" id="observacoes_medicas" name="observacoes_medicas" rows="3">{{ pet.observacoes_medicas|default_if_none:''|escape }}</textarea>
                     </div>
 
                     <!-- Botões -->
