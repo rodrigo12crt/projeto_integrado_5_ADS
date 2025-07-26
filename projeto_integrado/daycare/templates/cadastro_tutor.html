@@ -1,0 +1,147 @@
+{% extends "base.html" %}
+
+{% block title %}Paw Pals - Cadastro de Tutor{% endblock %}
+
+{% block content %}
+<!-- Scripts para máscara de CPF e telefone -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $('#cpf').mask('000.000.000-00');
+        $('#telefone').mask('(00) 00000-0000');
+    });
+</script>
+
+<div class="container mt-4">
+    <h2 class="text-center">
+        {% if tutor %}📝 Editar Tutor 👤{% else %}👤 Cadastrar Tutor{% endif %}
+    </h2>
+    <p class="text-center">
+        {% if tutor %}
+            Atualize as informações abaixo para editar o tutor.
+        {% else %}
+            Preencha os dados abaixo para cadastrar um novo tutor.
+        {% endif %}
+    </p>
+
+    <div class="card p-4 shadow-sm" style="background-color: white;">
+        <form method="POST" class="row g-3">
+            {% csrf_token %}
+
+            <!-- Botão de listagem -->
+            <div class="text-end mt-3">
+                <a href="{% url 'listar_tutores' %}" class="btn btn-info">📋 Listar Tutores</a>
+            </div>
+
+            <!-- Mensagens de alerta -->
+            {% if messages %}
+                <div class="container mt-3">
+                    {% for message in messages %}
+                        <div class="alert alert-{{ message.tags }} alert-dismissible fade show" role="alert">
+                            {{ message }}
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
+                    {% endfor %}
+                </div>
+            {% endif %}
+
+            <!-- Nome e CPF -->
+            <div class="col-md-6">
+                <label for="nome" class="form-label">Nome Completo</label>
+                <input type="text" class="form-control" id="nome" name="nome" required
+                    value="{{ tutor.nome_completo|default_if_none:'' }}">
+            </div>
+            <div class="col-md-6">
+                <label for="cpf" class="form-label">CPF</label>
+                <input type="text" class="form-control" id="cpf" name="cpf" required
+                    value="{{ tutor.cpf|default_if_none:'' }}">
+            </div>
+
+            <!-- Telefone e Email -->
+            <div class="col-md-6">
+                <label for="telefone" class="form-label">Telefone</label>
+                <input type="text" class="form-control" id="telefone" name="telefone" required
+                    value="{{ tutor.telefone|default_if_none:'' }}">
+            </div>
+            <div class="col-md-6">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" name="email"
+                    value="{{ tutor.email|default_if_none:'' }}">
+            </div>
+
+            <!-- Endereço -->
+            <div class="col-md-12">
+                <label for="endereco" class="form-label">Endereço Completo</label>
+                <textarea class="form-control" id="endereco" name="endereco" rows="2" required>{{ tutor.endereco|default_if_none:'' }}</textarea>
+            </div>
+
+            <!-- Cidade e Estado -->
+            <div class="col-md-6">
+                <label for="cidade" class="form-label">Cidade</label>
+                <input type="text" class="form-control" id="cidade" name="cidade" required
+                    value="{{ tutor.cidade|default_if_none:'' }}">
+            </div>
+            <div class="col-md-6">
+                <label for="estado" class="form-label">Estado</label>
+                <select class="form-select" id="estado" name="estado" required>
+                    <option value="">Selecione...</option>
+                    <option value="AC" {% if tutor.estado == "AC" %}selected{% endif %}>Acre</option>
+                    <option value="AL" {% if tutor.estado == "AL" %}selected{% endif %}>Alagoas</option>
+                    <option value="AP" {% if tutor.estado == "AP" %}selected{% endif %}>Amapá</option>
+                    <option value="AM" {% if tutor.estado == "AM" %}selected{% endif %}>Amazonas</option>
+                    <option value="BA" {% if tutor.estado == "BA" %}selected{% endif %}>Bahia</option>
+                    <option value="CE" {% if tutor.estado == "CE" %}selected{% endif %}>Ceará</option>
+                    <option value="DF" {% if tutor.estado == "DF" %}selected{% endif %}>Distrito Federal</option>
+                    <option value="ES" {% if tutor.estado == "ES" %}selected{% endif %}>Espírito Santo</option>
+                    <option value="GO" {% if tutor.estado == "GO" %}selected{% endif %}>Goiás</option>
+                    <option value="MA" {% if tutor.estado == "MA" %}selected{% endif %}>Maranhão</option>
+                    <option value="MT" {% if tutor.estado == "MT" %}selected{% endif %}>Mato Grosso</option>
+                    <option value="MS" {% if tutor.estado == "MS" %}selected{% endif %}>Mato Grosso do Sul</option>
+                    <option value="MG" {% if tutor.estado == "MG" %}selected{% endif %}>Minas Gerais</option>
+                    <option value="PA" {% if tutor.estado == "PA" %}selected{% endif %}>Pará</option>
+                    <option value="PB" {% if tutor.estado == "PB" %}selected{% endif %}>Paraíba</option>
+                    <option value="PR" {% if tutor.estado == "PR" %}selected{% endif %}>Paraná</option>
+                    <option value="PE" {% if tutor.estado == "PE" %}selected{% endif %}>Pernambuco</option>
+                    <option value="PI" {% if tutor.estado == "PI" %}selected{% endif %}>Piauí</option>
+                    <option value="RJ" {% if tutor.estado == "RJ" %}selected{% endif %}>Rio de Janeiro</option>
+                    <option value="RN" {% if tutor.estado == "RN" %}selected{% endif %}>Rio Grande do Norte</option>
+                    <option value="RS" {% if tutor.estado == "RS" %}selected{% endif %}>Rio Grande do Sul</option>
+                    <option value="RO" {% if tutor.estado == "RO" %}selected{% endif %}>Rondônia</option>
+                    <option value="RR" {% if tutor.estado == "RR" %}selected{% endif %}>Roraima</option>
+                    <option value="SC" {% if tutor.estado == "SC" %}selected{% endif %}>Santa Catarina</option>
+                    <option value="SP" {% if tutor.estado == "SP" %}selected{% endif %}>São Paulo</option>
+                    <option value="SE" {% if tutor.estado == "SE" %}selected{% endif %}>Sergipe</option>
+                    <option value="TO" {% if tutor.estado == "TO" %}selected{% endif %}>Tocantins</option>
+                </select>
+            </div>
+
+            <!-- Como Conheceu e Observações -->
+            <div class="col-md-6">
+                <label for="como_conheceu" class="form-label">Como nos conheceu?</label>
+                <select class="form-select" id="como_conheceu" name="como_conheceu">
+                    <option value="Facebook" {% if tutor.conheceu == "Facebook" %}selected{% endif %}>Facebook</option>
+                    <option value="Instagram" {% if tutor.conheceu == "Instagram" %}selected{% endif %}>Instagram</option>
+                    <option value="Whatsapp" {% if tutor.conheceu == "Whatsapp" %}selected{% endif %}>Whatsapp</option>
+                    <option value="Amigo" {% if tutor.conheceu == "Amigo" %}selected{% endif %}>Indicação de Amigo</option>
+                    <option value="Veterinário" {% if tutor.conheceu == "Veterinário" %}selected{% endif %}>Veterinário</option>
+                    <option value="Outros" {% if tutor.conheceu == "Outros" %}selected{% endif %}>Outros</option>
+                </select>
+            </div>
+
+            <!-- Botões -->
+            <div class="col-12 mt-4">
+                <div class="p-4 rounded shadow" style="background-color: #cedef0;">
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-primary">
+                            {% if tutor %}💾 Salvar Alterações{% else %}💾 Salvar Cadastro{% endif %}
+                        </button>
+                        <button type="reset" class="btn btn-warning ms-2">🧹 Limpar</button>
+                    </div>
+                </div>
+            </div>
+
+        </form>
+    </div>
+</div>
+{% endblock %}

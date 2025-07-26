@@ -1,0 +1,139 @@
+{% extends "base.html" %}
+
+{% block title %}Paw Pals - Home{% endblock %}
+{% load static %}
+{% block content %}
+
+<main class="container mt-3">
+
+    <!-- Mensagens de alerta -->
+    {% if messages %}
+    <div class="mt-3">
+        {% for message in messages %}
+        <div class="alert alert-{{ message.tags }} alert-dismissible fade show" role="alert">
+            {{ message }}
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+        {% endfor %}
+    </div>
+    {% endif %}
+
+    <!-- Sesão de Banner -->
+    <section class="text-center mb-5 bg-light rounded-4 py-5 text-primary"
+        style="font-family: 'Arial', sans-serif; font-weight: 700;">
+    <h1 class="display-4" style="font-weight: 600;">💻 Sistema de Gestão Paw Pals ⚙️</h1>
+    <p class="lead" style="font-family: 'Arial', sans-serif; font-weight: 400;">Gerencie tutores, pets, serviços e agendamentos de forma prática e eficiente.</p>
+    </section>
+
+    <h2 class="text-center mb-4">Gerenciamento Principal</h2>
+
+    <!-- Seção de Gerenciamento Principal -->
+    <section class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 mb-5">
+        <div class="col">
+            <div class="card h-100 shadow-sm d-flex flex-column rounded-4">
+                <div class="card-body text-center py-4 flex-grow-1 d-flex flex-column justify-content-center">
+                    <i class="bi bi-person-fill-add text-primary h3 mb-3"></i>
+                    <h5 class="card-title mb-2">👤 Cadastrar Tutores</h5>
+                    <p class="card-text small text-muted flex-grow-1">Registre novos tutores e seus contatos.</p>
+                    <a href="{% url 'cadastro_tutor' %}" class="btn btn-outline-primary btn-sm mt-2">Cadastrar Tutor</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 shadow-sm d-flex flex-column rounded-4">
+                <div class="card-body text-center py-4 flex-grow-1 d-flex flex-column justify-content-center">
+                    <i class="bi bi-person-plus-fill text-info h3 mb-3"></i>
+                    <h5 class="card-title mb-2">🐶 Cadastrar Pets 🐱</h5>
+                    <p class="card-text small text-muted flex-grow-1">Adicione informações dos pets cadastrados.</p>
+                    <a href="{% url 'cadastro_pet' %}" class="btn btn-outline-info btn-sm mt-2">Cadastrar Pet</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 shadow-sm d-flex flex-column rounded-4">
+                <div class="card-body text-center py-4 flex-grow-1 d-flex flex-column justify-content-center">
+                    <i class="bi bi-scissors text-success h3 mb-3"></i>
+                    <h5 class="card-title mb-2">🛁 Cadastrar Serviços</h5>
+                    <p class="card-text small text-muted flex-grow-1">Gerencie os serviços oferecidos pela clínica.</p>
+                    <a href="{% url 'cadastro_servico' %}" class="btn btn-outline-success btn-sm mt-2">Cadastrar Serviço</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 shadow-sm d-flex flex-column rounded-4">
+                <div class="card-body text-center py-4 flex-grow-1 d-flex flex-column justify-content-center">
+                    <i class="bi bi-calendar-plus-fill text-warning h3 mb-3"></i>
+                    <h5 class="card-title mb-2">📅 Gerenciar Agendamentos</h5>
+                    <p class="card-text small text-muted flex-grow-1">Organize os horários e atendimentos.</p>
+                    <a href="{% url 'agendamento' %}" class="btn btn-outline-warning btn-sm mt-2">Agendar Serviço</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <h2 class="text-center mb-4">Recursos Administrativos</h2>
+
+    <!-- Seção de Recursos Administrativos -->
+    <section class="row row-cols-1 row-cols-md-3 g-4 mb-5">
+        <div class="col">
+            <div class="card h-100 shadow-sm d-flex flex-column rounded-4">
+                <div class="card-body text-center py-4 flex-grow-1 d-flex flex-column justify-content-center">
+                    <i class="bi bi-person-fill-add text-primary h3 mb-3"></i>
+                    <h5 class="card-title mb-2">🧑‍🤝‍🧑 Cadastrar Usuários</h5>
+                    <p class="card-text small text-muted flex-grow-1">Registre novos usuários para acessar o sistema.</p>
+                    <a href="{% url 'registrar' %}" class="btn btn-outline-primary btn-sm mt-2">Cadastrar Usuário</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 shadow-sm d-flex flex-column rounded-4">
+                <div class="card-body text-center py-4 flex-grow-1 d-flex flex-column justify-content-center">
+                    <i class="bi bi-list-check text-secondary h3 mb-3"></i>
+                    <h5 class="card-title mb-2">📋 Relatório de Agendamentos</h5>
+                    <p class="card-text small text-muted flex-grow-1">Veja os agendamentos por tutor, período e serviço.</p>
+                    <a href="{% url 'relatorios' %}" class="btn btn-outline-secondary btn-sm mt-2">Acessar Relatório</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 shadow-sm d-flex flex-column rounded-4">
+                <div class="card-body text-center py-4 flex-grow-1 d-flex flex-column justify-content-center">
+                    <i class="bi bi-file-earmark-excel-fill text-info h3 mb-3"></i>
+                    <h5 class="card-title mb-2">📊 Exportar para Excel</h5>
+                    <p class="card-text small text-muted flex-grow-1">Baixe uma planilha com os agendamentos e valores.</p>
+                    <a href="{% url 'exportar_relatorio_excel' %}" class="btn btn-outline-info btn-sm mt-2">Exportar Excel</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção com data e hora -->
+    <div class="card mt-5 rounded-4">
+        <div class="card-body">
+            <section class="row">
+                <div class="col-md-6 text-center py-3">
+                    <h3>🕒 Horário Atual</h3>
+                    <p id="relogio" class="fs-4 text-primary"></p>
+                </div>
+                <div class="col-md-6 text-center py-3">
+                    <h3>📅 Data Atual</h3>
+                    <p id="data" class="fs-4 text-primary"></p>
+                </div>
+            </section>
+        </div>
+    </div>
+
+</main>
+
+<!-- Script para o data e hora -->
+<script>
+    function atualizarHora() {
+        const agora = new Date();
+        document.getElementById('relogio').innerText = agora.toLocaleTimeString();
+        document.getElementById('data').innerText = agora.toLocaleDateString();
+    }
+    setInterval(atualizarHora, 1000);
+    atualizarHora();
+</script>
+
+{% endblock %}

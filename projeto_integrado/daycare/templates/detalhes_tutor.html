@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Paw Pals - Detalhes do Tutor{% endblock %}
+
+{% block content %}
+<div class="container mt-3">
+    <h2 class="text-center mb-4">👤 Informações do Tutor</h2>
+
+    <!-- Botão de listagem -->
+    <div class="text-end mt-3 mb-4">
+        <a href="{% url 'listar_tutores' %}" class="btn btn-info">📋 Listar Tutores</a>
+    </div>
+
+    <div class="card mb-4 p-4 rounded-4">
+        <p><strong>Nome:</strong> {{ tutor.nome_completo }}</p>
+        <p><strong>CPF:</strong> {{ tutor.cpf }}</p>
+        <p><strong>Telefone:</strong> {{ tutor.telefone }}</p>
+        <p><strong>Email:</strong> {{ tutor.email }}</p>
+        <p><strong>Endereço:</strong> {{ tutor.endereco }}</p>
+    </div>
+
+    <h3 class="text-center mb-4">🐾 Pets do Tutor</h3>
+
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 justify-content-center">
+        {% for pet in pets %}
+        <div class="col d-flex justify-content-center">
+            <div class="card h-100 rounded-4" style="width: 18rem;">
+                <div class="d-flex justify-content-center">
+                    {% if pet.foto %}
+                        <img src="{{ pet.foto.url }}" class="card-img-top rounded-circle" alt="{{ pet.nome }}" style="width: 150px; height: 150px; object-fit: cover;">
+                    {% else %}
+                        <img src="{% static 'img/sem-foto.jpg' %}" class="card-img-top rounded-circle d-block mx-auto" alt="Sem foto" style="width: 150px; height: 150px; object-fit: cover;">
+                    {% endif %}
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title text-center">{{ pet.nome }}</h5>
+                    <p class="card-text"><strong>Espécie:</strong> {{ pet.especie }}</p>
+                    <p class="card-text"><strong>Raça:</strong> {{ pet.raca }}</p>
+                    <p class="card-text"><strong>Idade:</strong> {{ pet.idade }} anos</p>
+                    <p class="card-text"><strong>Sexo:</strong> {{ pet.sexo }}</p>
+                    <p class="card-text"><strong>Peso:</strong> {{ pet.peso }} kg</p>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>    
+</div>
+{% endblock %}

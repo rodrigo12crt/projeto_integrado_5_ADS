@@ -1,0 +1,76 @@
+{% extends "base.html" %}
+
+{% block title %}Paw Pals - Relatório de Agendamentos{% endblock %}
+
+{% block content %}
+<div class="container mt-4">
+    <h2 class="text-center"> Relatório de Agendamentos 📋</h2>
+
+    <form method="get" class="row g-3 mb-4">
+        <div class="col-md-4">
+            <label for="tutor_id" class="form-label">Tutor</label>
+            <select class="form-select" name="tutor_id">
+                <option value="">Todos</option>
+                {% for tutor in tutores %}
+                    <option value="{{ tutor.id }}" {% if tutor.id|stringformat:"s" == request.GET.tutor_id %}selected{% endif %}>{{ tutor.nome_completo }}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <div class="col-md-3">
+            <label for="data_inicio" class="form-label">Data Início</label>
+            <input type="date" class="form-control" name="data_inicio" value="{{ request.GET.data_inicio }}">
+        </div>
+        <div class="col-md-3">
+            <label for="data_fim" class="form-label">Data Fim</label>
+            <input type="date" class="form-control" name="data_fim" value="{{ request.GET.data_fim }}">
+        </div>
+        <div class="col-md-2 d-flex align-items-end">
+            <button type="submit" class="btn btn-primary w-100">Filtrar</button>
+        </div>
+    </form>
+
+    {% if agendamentos %}
+    <div class="card p-3">
+        <a href="{% url 'exportar_relatorio_excel' %}?tutor_id={{ request.GET.tutor_id }}&data_inicio={{ request.GET.data_inicio }}&data_fim={{ request.GET.data_fim }}" class="btn btn-success mb-3">
+            📥 Exportar para Excel
+        </a>
+
+        <div class="table-responsive">
+            <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Data</th>
+                    <th>Nome do Tutor</th>
+                    <th>Nome do Pet</th>
+                    <th>Serviços</th>
+                    <th>Desconto %</th>
+                    <th>Total R$</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for agendamento in agendamentos %}
+                <tr>
+                    <td>{{ agendamento.data_agendamento|date:"d/m/Y" }}</td>
+                    <td>{{ agendamento.tutor.nome_completo }}</td>
+                    <td>{{ agendamento.pet.nome }}</td>
+                    <td>
+                        <ul class="mb-0">
+                            {% for servico in agendamento.servicos.all %}
+                                <li>{{ servico.nome_servico }} - R$ {{ servico.preco }}</li>
+                            {% endfor %}
+                        </ul>
+                    </td>
+                    <td>{{ agendamento.desconto_percentual }}%</td>
+                    <td>R$ {{ agendamento.valor_total }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        </div>
+        <p class="text-end"><strong>Total Geral:</strong> R$ {{ total_geral|floatformat:2 }}</p>
+    </div>
+    {% else %}
+        <p class="text-center">Nenhum agendamento encontrado com os filtros aplicados.</p>
+    {% endif %}
+</div>
+{% endblock %}

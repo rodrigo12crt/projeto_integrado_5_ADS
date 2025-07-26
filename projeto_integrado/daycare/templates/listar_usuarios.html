@@ -1,0 +1,77 @@
+{% extends "base.html" %}
+
+{% block title %}Paw Pals - Lista de Usuários{% endblock %}
+
+{% block content %}
+<div class="container mt-4">
+
+    <!-- Mensagens de alerta -->
+    {% if messages %}
+    <div class="container mt-3">
+        {% for message in messages %}
+            <div class="alert alert-{{ message.tags }} alert-dismissible fade show" role="alert">
+                {{ message }}
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+        {% endfor %}
+    </div>
+    {% endif %}
+
+    <h2 class="text-center mb-4">🧑‍🤝‍🧑 Lista de Usuários 👤</h2>
+
+    <!-- Campo de pesquisa -->
+    <form method="GET" class="mb-3">
+        <div class="row g-2">
+            <div class="col-md-6">
+                <input type="text" name="q" class="form-control" placeholder="Buscar por nome de usuário" value="{{ request.GET.q }}">
+            </div>
+            <div class="col-md-3 d-flex">
+                <button type="submit" class="btn btn-primary me-2">🔍 Pesquisar</button>
+                <a href="{% url 'listar_usuarios' %}" class="btn btn-secondary">🔄 Limpar</a>
+            </div>
+        </div>
+    </form>
+
+    <!-- Botão para novo cadastro -->
+    <div class="text-end mb-3">
+        <a href="{% url 'registrar' %}" class="btn btn-success">➕ Novo Usuário</a>
+    </div>
+
+    <!-- Tabela de usuários -->
+    <div class="table-responsive">
+        <table class="table table-bordered table-striped text-center">
+            <thead class="table-dark">
+                <tr>
+                    <th>Nome de Usuário</th>
+                    <th>Nível</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for usuario in usuarios %}
+                <tr>
+                    <td>{{ usuario.username }}</td>
+                    <td>{{ usuario.get_nivel_display }}</td>
+                    <td>
+                        <!-- Botões -->
+                        <div class="d-grid gap-2 d-md-block">
+                        <a href="{% url 'editar_usuario' usuario.id %}" class="btn btn-warning btn-sm" title="Editar">
+                            ✏️ Editar
+                        </a>
+                        <a href="{% url 'excluir_usuario' usuario.id %}" class="btn btn-danger btn-sm" title="Excluir"
+                        onclick="return confirm('Tem certeza que deseja excluir este usuário?');">
+                            🗑️ Excluir
+                        </a>
+                        </div>
+                    </td>
+                </tr>
+                {% empty %}
+                <tr>
+                    <td colspan="4" class="text-center">Nenhum usuário encontrado.</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}
